@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="photos.html">Photography</a>
+          <a class="nav-link" href="resume.html">Resume</a>
+       </div>
+     </nav>
+  </header>
+
+  <p id="contactPara">Ask me a question, tell me a cool story, or maybe a funny joke.</p>
+
+  <div class="contact-form">
+    <!-- basic contact form stuff -->
+      <form>
+        Name:<br>
+        <input type="text" name="name" required><br><br><br>
+        Email:<br>
+        <input type="text" name="email" required><br><br><br>
+        Comments:<br>
+        <textarea required name="comment"></textarea><br><br><br>
+        <center><input onclick="subClick()" id="subButton" type="submit" value="Submit"></center>
+      </form>
+  </div>
+
+  <div class="profile">
+    <div class="profile-child">
+      <center>
+        <p>Caitlin Campbell</p>
+	      
+        <p>Computer Engineering Student, Knitting Fanatic, Cat Lover</p>
+	      
+        <img class="circular-pic" src="../img/me.png" />
+      </center>
+    </div>
+  </div>
+
+    <script src="../js/main.js"></script>
+  </body>
+ </html>

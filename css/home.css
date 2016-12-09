@@ -1,0 +1,63 @@
+body, html {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  background: url(../img/nebula2.png) no-repeat center top;
+  background-size: cover;
+  margin: 0;
+  background-color: #000000;
+}
+
+.my-nav-bar{
+  padding-top: 50px;
+  text-align: center;
+  height: 130px;
+  width: 100%;
+}
+
+.nav-bar{
+ display: flex;
+ padding-top: 50px;
+ height: 130px;
+ width: 100%;
+}
+
+.nav-link {
+  padding: 15px 75px 15px 75px;
+  color: white;
+  border-radius: 10px;
+  /*flex: 2;*/
+  /*text-align: center;*/
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  height: 35px;
+  /*padding-top: 10px;
+  color: white;
+  flex: 2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  height: 35px;
+  margin: 0 90px 0 90px;*/
+}
+
+.nav-link:hover{
+  color: #9EC1AF;
+  background-color: rgba(114, 114, 112, 0.3);
+  text-decoration: none;
+}
+
+.circular-pic{
+	border: 2px solid rgb(81, 34, 41);
+	border-radius: 50%;
+}
+
+.profile{
+	position: fixed;
+	bottom: 20px;
+	width: 100%;
+	color: white;
+}
